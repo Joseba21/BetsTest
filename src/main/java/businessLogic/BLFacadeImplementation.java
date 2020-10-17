@@ -192,8 +192,6 @@ public class BLFacadeImplementation  implements BLFacade {
 			}
 			dbManager.close();
 		}
-
-
 	}
 	@WebMethod
 	public Event createEvent(String description,Date eventDate) {
